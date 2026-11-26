@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:17
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: auctionhub
+      POSTGRES_PASSWORD: auctionhub
+      POSTGRES_DB: auctionhub
+    ports:
+      - 127.0.0.1:5432:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 127.0.0.1:8080:8080
