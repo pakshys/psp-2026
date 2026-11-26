@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AuctionHub.Api/AuctionHub.Api.csproj" />
+    <Project Path="src/AuctionHub.Application/AuctionHub.Application.csproj" />
+    <Project Path="src/AuctionHub.Domain/AuctionHub.Domain.csproj" />
+    <Project Path="src/AuctionHub.Infrastructure/AuctionHub.Infrastructure.csproj" />
+    <Project Path="src/AuctionHub.Worker/AuctionHub.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AuctionHub.Application.Tests/AuctionHub.Application.Tests.csproj" />
+    <Project Path="tests/AuctionHub.Domain.Tests/AuctionHub.Domain.Tests.csproj" />
+    <Project Path="tests/AuctionHub.IntegrationTests/AuctionHub.IntegrationTests.csproj" />
+  </Folder>
+</Solution>
