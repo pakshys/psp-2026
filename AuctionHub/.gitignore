@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+*.nupkg
+packages/
+
+# Text editors & IDE
+.vs/
+*.user
+*.suo
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
